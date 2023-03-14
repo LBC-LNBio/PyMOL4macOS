@@ -31,4 +31,3 @@ jobs:
               run: |
                   pymol -c
                   pymol --version
-                  
