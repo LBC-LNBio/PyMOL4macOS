@@ -1,0 +1,32 @@
+name: Python package build and publish
+
+on:
+    push:
+        branches: [master]
+    release:
+        types: [created]
+
+jobs:
+    deploy-macos:
+        runs-on: macos-latest
+        steps:
+            - uses: actions/checkout@v3
+
+            - name: Set up Python
+              uses: actions/setup-python@v4
+              with:
+                  python-version: 3.11
+
+            - name: Install dependencies
+              run: |
+                  brew install Caskroom/cask/xquartz
+                  brew install tcl-tk
+                  pip install pyqt5
+
+            - name: Install pymol
+              run: |
+                  brew install brewsci/bio/pymol
+
+            - name: Launch PyMOL
+              run: |
+                  pymol --version
