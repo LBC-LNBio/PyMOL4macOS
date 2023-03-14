@@ -1,8 +1,8 @@
-name: Python package build and publish
+name: Testing PyMOL in macOS
 
 on:
     push:
-        branches: [master]
+        branches: [main]
     release:
         types: [created]
 
