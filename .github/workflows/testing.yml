@@ -7,7 +7,7 @@ on:
         types: [created]
 
 jobs:
-    deploy-macos:
+    install-and-testing:
         runs-on: macos-latest
         steps:
             - uses: actions/checkout@v3
@@ -29,4 +29,6 @@ jobs:
 
             - name: Launch PyMOL
               run: |
+                  pymol -c
                   pymol --version
+                  
