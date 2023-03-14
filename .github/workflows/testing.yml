@@ -7,7 +7,7 @@ on:
         types: [created]
 
 jobs:
-    install-and-testing:
+    install-and-test:
         runs-on: macos-latest
         steps:
             - uses: actions/checkout@v3
