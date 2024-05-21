@@ -2,7 +2,7 @@
 
 O [PyMOL](https://pymol.org) de código aberto está disponível gratuitamente e pode ser instalado por meio do gerenciador de pacotes [Homebrew](https://brew.sh/).
 
-Este repositório fornece um método para instalar o PyMOL v2.6 no macOS. Se necessário, uma versão em inglês deste guia está disponível [aqui](https://github.com/LBC-LNBio/PyMOL4macOS/blob/main/README.md).
+Este repositório fornece um método para instalar o PyMOL v2.6 no macOS. Se necessário, uma versão em inglês deste guia está disponível [aqui](https://github.com/cnpem/PyMOL4macOS/blob/main/README.md).
 
 ## Download e instalação
 
